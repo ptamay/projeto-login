@@ -35,6 +35,9 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    transition: width .2s heigth .2s;
+    transition-timing-function: ease;
+
 
 }
 
@@ -44,12 +47,14 @@ section#login > div#img {
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
+    background-position: center;
 
 }
 
 section#login > div#formulario {
     padding: 10px;
+    display: block;
 }
 
 
