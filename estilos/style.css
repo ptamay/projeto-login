@@ -20,15 +20,19 @@ html, body {
 main {
     position: relative;
     width: 100vw;
-    height: 100hw;
+    height: 100vh;
 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+
 section#login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+      
+    
     background-color: white;
     width: 290px;
     height: 510px;
@@ -42,7 +46,8 @@ section#login {
 }
 
 section#login > div#img {
-    display: block;
+   
+    
     background-image: url(../imagens/img1.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -53,7 +58,7 @@ section#login > div#img {
 }
 
 section#login > div#formulario {
-    display: block;
+    
     padding: 10px;
 }
 
